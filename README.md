@@ -307,6 +307,10 @@ src/
 4. 首版 Pencil 原型
 5. 首版主界面实现
 
+## Release
+
+仓库使用 `cargo-dist` 管理发布流程。当前 release workflow 位于 `.github/workflows/release.yml`，默认在 Windows 上生成 MSI 和 zip 产物；发布入口由 `src-tauri/dist-workspace.toml` 管理。
+
 ## License
 
 MIT
